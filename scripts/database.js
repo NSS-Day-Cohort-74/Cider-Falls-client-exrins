@@ -40,7 +40,22 @@ const database = {
         { id: 10, title: "zip lines"}
     ],
     guests: [
-        { id: 1, first: "John", last: "Doe", areaServiceId: 1 }
+        { id: 1, first: "John", last: "Doe", areaServiceId: 1 },
+        { id: 2, first: "kyle", last: "smith", areaServiceId: 2 },
+        { id: 3, first: "donald", last: "duck", areaServiceId: 3 },
+        { id: 4, first: "Homer", last: "Simpson", areaServiceId: 4 },
+        { id: 5, first: "Marge", last: "Simpson", areaServiceId: 5 },
+        { id: 6, first: "Maggie", last: "Simpson", areaServiceId: 7 },
+        { id: 7, first: "Lisa", last: "Simpson", areaServiceId: 8 },
+        { id: 8, first: "Bart", last: "Simpson", areaServiceId: 9 },
+        { id: 9, first: "Jane", last: "Doe", areaServiceId: 10 },
+        { id: 10, first: "Jan", last: "Brady", areaServiceId: 12 },
+        { id: 11, first: "Greg", last: "Brady", areaServiceId: 13 },
+        { id: 12, first: "Cindy", last: "Brady", areaServiceId: 14 },
+        { id: 13, first: "Marsha", last: "Brady", areaServiceId: 15 },
+        { id: 14, first: "Peter", last: "Brady", areaServiceId: 17 },
+        { id: 15, first: "Florence", last: "Henderson", areaServiceId: 18 },
+        { id: 16, first: "Doe", last: "Rayme", areaServiceId: 10 }
     ],
 }
 

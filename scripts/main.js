@@ -2,6 +2,8 @@
 // create services list HTML include service_id in state to get areas when clicked
 
 import { Area } from "./area.js";
+import { guestList } from "./guests.js";
+import { Services } from "./service.js";
 
 // create areas list HTML
 //      create services list HTML for each
@@ -23,7 +25,10 @@ create string template for our html
 
 
 const mainContainer = document.querySelector("#container")
-
+const titleContainer = document.querySelector("#parkservices")
+const guestContainer = document.querySelector("#guestcontainer")
 const applicationHTML = Area()
 
 mainContainer.innerHTML = applicationHTML
+titleContainer.innerHTML = Services()
+guestContainer.innerHTML = guestList()
