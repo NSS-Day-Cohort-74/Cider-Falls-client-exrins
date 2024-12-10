@@ -1,5 +1,5 @@
 body {
-    background-color: #ccc;
+    background-color: lightgrey;
   }
   
  
@@ -13,10 +13,6 @@ img {
     color: black;
     margin-right: auto;
   }
-  
-
-
-
 body {
   font-family: Arial, sans-serif;
   padding: 0;
@@ -36,8 +32,8 @@ header img {
 
 main {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-gap: 15px;
+  grid-template-columns: repeat(2, 1fr) 1fr; /* 3 columns for cards + 1 column for the guest info */
+  grid-template-rows: repeat(3, auto);  grid-gap: 15px;
   padding: 20px;
 }
 
@@ -62,13 +58,13 @@ main {
 }
 
 .guest-info {
-  grid-column: 1 / -1;
-  border: 1px solid #ccc;
-  padding: 10px;
+text-align: center;
+background-color: silver;
+display: block;
 }
 
-.guest-info h3 {
-  margin-top: 0;
+.guest-info {
+text-align: center;
 }
 
 .guest-info ul {
@@ -77,13 +73,13 @@ main {
 }
 
 .guest-info li {
-  margin-bottom: 5px;
+  margin-bottom: 9px;
 }
 
 footer {
   background-color: #292929;
   color: #ffffff;
-  padding: 12px;
+  padding: 17px;
   text-align: center;
   
 }
@@ -91,4 +87,5 @@ footer {
 #parkservices{
   text-decoration: solid;
   font-size: 24px;
+  text-lign:
 }
