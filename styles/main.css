@@ -1,0 +1,91 @@
+body {
+    background-color: lightgrey;
+  }
+  
+ 
+img {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+   margin-right: auto;
+}
+   h1 {
+    color: black;
+    margin-right: auto;
+  }
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+header {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: left;
+}
+
+header img {
+  max-width: 150px;
+  justify-content: center;
+  background-color: #ff0000;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 1fr; /* 3 columns for cards + 1 column for the guest info */
+  grid-template-rows: repeat(3, auto);  grid-gap: 15px;
+  padding: 20px;
+}
+
+.service-area {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.service-area h3 {
+  margin-top: 5;
+
+}
+
+.service-area ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-area li {
+  margin-bottom: 5px;
+}
+
+.guest-info {
+text-align: center;
+background-color: silver;
+display: block;
+}
+
+.guest-info {
+text-align: center;
+}
+
+.guest-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.guest-info li {
+  margin-bottom: 9px;
+}
+
+footer {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 17px;
+  text-align: center;
+  
+}
+
+#parkservices{
+  text-decoration: solid;
+  font-size: 24px;
+  text-lign:
+}
